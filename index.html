@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate A <br><span>Random Password</span></h1>
+        <div class="display">
+            <input  type="text" class="input-button" placeholder="Password">
+            <div class="img-div">
+                <img onclick="copy()" class="copy-img" src="copy.svg">
+            </div>
+        </div>
+        <button onclick="generatePassword()" class="generate-button"><img src="lightning.svg" alt="">Generate Password</button>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
